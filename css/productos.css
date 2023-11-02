@@ -1,0 +1,50 @@
+body{
+    color: rgb(247, 206, 247);
+}
+
+div{
+    border: solid 1px black;
+    /* float: right; (para moverlos hacia la derecha de la pantalla)*/
+    width: 550px;
+    padding: 35px;
+    margin: 40px;
+    text-align: center;
+    
+}
+
+/* los hace a todos iguales, no tienen sus elementos por default */
+*{
+    margin: 0;
+    padding: 0;
+    border
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: ; 
+    justify-content: center;
+}
+
+ul{
+    justify-content: space-around;
+}
+
+button{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+button:hover{
+    background: green;
+    color: aquamarine;
+}
+
+button a:hover{
+    color: antiquewhite;
+}

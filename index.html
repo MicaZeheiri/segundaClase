@@ -5,8 +5,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linkeamos el archivo css de la pagina -->
+<link rel="stylesheet" href="./css/index.css">
+
     <title>Mi segunda página</title>
 </head>
+
+
+<!-- le damos caracteristicas al fondo y titulos -->
+<style>
+    body{
+        background-color: rgb(188, 143, 231);
+    }
+
+    h1{
+        color: aqua;
+    }
+
+    h2{color: rgb(178, 247, 224);}
+</style>
+
+
 <body>
 
     <!-- Encabezado de la página -->
@@ -15,13 +35,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./productos.html">Productos</a>
+                    <a href="./pages/productos.html">Productos</a>
                 </li>
                 <li>
-                    <a href="./nosotros.html">Nosotros</a>
+                    <a href="./pages/nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="./pages/formulario.html">Formulario</a>
                 </li>
                 <li>
                     <a href=""></a>
@@ -38,13 +58,13 @@
             <h1>Productos para la casa</h1>
             <article>
                 <h2>Cocina</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                <p id="parrafoAzul">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Eos nesciunt obcaecati architecto natus non quas delectus quam, 
                     inventore aperiam facilis esse sequi iusto sunt facere minus aspernatur,
                      necessitatibus voluptatum! Maxime.</p>
             </article>
             <article>
-                <h2>Dormitorios</h2>
+                <h2 class="tituloMarron tipografíaDiferente">Dormitorios</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dignissimos veritatis 
                     tenetur consequatur in recusandae consectetur nulla repudiandae! Assumenda reiciendis 
                     veniam tempora qui est velit provident unde labore molestiae dicta.</p>
@@ -60,7 +80,7 @@
             <h1>Automotores</h1>
             <article>
                 <h2>Fiat</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam recusandae, deserunt 
+                <p  id="parrafoAzul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam recusandae, deserunt 
                     nulla omnis veritatis provident dolorum incidunt blanditiis ab labore, laudantium soluta 
                     ipsa ad nesciunt itaque ipsum. Nostrum, consequuntur.</p>
             </article>

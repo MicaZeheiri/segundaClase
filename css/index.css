@@ -1,0 +1,24 @@
+/* selccionamos el selector: de tag*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: aqua;
+}
+
+
+/* hace referencia al atributo class="..." en la etiqueta*/
+.tituloMarron{
+    color: rgb(99, 51, 6);
+}
+
+.tipografiaDiferente{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* hace referencia al atributo id="..." en la etiqueta*/
+#parrafoAzul{
+    color: rgb(59, 59, 231);
+}
